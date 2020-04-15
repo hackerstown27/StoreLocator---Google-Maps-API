@@ -1,0 +1,49 @@
+.Info{
+    height: 8rem;
+    width: 15rem;
+}
+
+.Info span{
+    display: block;
+}
+
+.StoreName{
+    font-size: 1.1rem;
+    letter-spacing: 0.1rem;
+}
+
+.Address{
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid rgb(105, 105, 105);
+}
+
+.PhoneNo{
+    margin-top: 0.2rem;
+    color: #5d5b6a;
+}
+
+.Open , .Close{
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    border-radius: 10px;
+    width: 5rem;
+    text-transform: uppercase;
+    margin-top: 0.8rem;
+    font-weight: 600;
+}
+
+.Open{
+    border: 1px solid rgb(157, 212, 169);
+    color: rgb(157, 212, 169);
+}
+
+.Close{
+    border: 1px solid rgb(224, 104, 104);
+    color: rgb(224, 104, 104);
+}
+

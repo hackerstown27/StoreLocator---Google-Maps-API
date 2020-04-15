@@ -1,0 +1,49 @@
+.SearchResult{
+    height: 23rem;
+    width: 24.5rem;
+    background: white;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+
+.SearchResult p{
+    margin-top: 8rem;
+    margin-left: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+.Initial span{
+    color: #084177;
+    font-family: monospace;
+    font-size: 1.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.SearchResult hr{
+    width: 90%;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+  
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(138, 138, 138);
+    border-radius: 10px;
+}

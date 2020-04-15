@@ -1,0 +1,28 @@
+.SearchBox{
+    width: 75%;
+    padding: 0.1rem;
+    border: 1px solid #363636;
+    border-radius: 10px;
+    background: hsl(248, 8%, 39%);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.SearchBox input{
+    width: 75%;
+    padding: 0.8rem;
+    border: none;
+    background: #5d5b6a;
+    box-sizing: border-box;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.SearchBox input:focus{
+    outline: none;
+}
+
+.SearchBox i{
+    margin-left: 3rem;
+}

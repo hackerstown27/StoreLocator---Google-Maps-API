@@ -1,0 +1,14 @@
+.ControlPanel{
+    position: absolute;
+    z-index: 100;
+    top: 1rem;
+    left: 5rem;
+}
+
+.Brand{
+    font-size: 5rem;
+    letter-spacing: 0.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #5d5b6a;
+    margin-bottom: 1rem;
+}
